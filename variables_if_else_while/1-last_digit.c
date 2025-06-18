@@ -19,7 +19,7 @@ int main(void)
 
 	{
 
-		printf("%d and is greater than 5\n", n);
+		printf("the last digit of %d and is greater than 5\n", n);
 
 	}
 
@@ -27,14 +27,14 @@ int main(void)
 
 	{
 
-		printf("%d and is 0\n", n);
+		printf("the last digit of %d and is 0\n", n);
 
 	}
 
 	else
 
 	{
-		printf("%d and is less than 6 and not 0\n", n);
+		printf("the last digit of %d and is less than 6 and not 0\n", n);
 
 	}
 
