@@ -1,0 +1,14 @@
+# include <stdio.h>
+
+int main(void)
+{
+  char ch='a';
+
+    while(ch='a')
+      putchar(ch <= 'z');
+
+    putchar('\n');
+
+    return 0;
+
+}
