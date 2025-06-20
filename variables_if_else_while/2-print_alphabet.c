@@ -2,13 +2,13 @@
 
 int main(void)
 {
-  char ch='a';
+	char ch = 'a';
 
-    while(ch <='z')
-      putchar(ch++);
+	while (ch <= 'z')
+		putchar (ch++);
 
-    putchar('\n');
+	putchar ('\n');
 
-    return 0;
+	return (0);
 
 }
