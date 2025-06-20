@@ -1,18 +1,24 @@
 # include <stdio.h>
 
 /**
+
  * main - Entry point of the program
+
  *
- * Description: Prints the lowercase alphabet followed by a new line.
+
+ * Description: prints the alphabet in lowercase, followed by a new line
+
  *
+
  * Return: Always 0 (Success)
- */
+
+ **/
 
 int  main(void)
 {
 	char ch = 'a';
 
-	while (ch <= 'z')
+	while (ch <= 'Z')
 	{
 		putchar(ch++);
 
